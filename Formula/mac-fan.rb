@@ -7,7 +7,9 @@ class MacFan < Formula
   head "https://github.com/j3tm0t0/mac-fan-cli.git", branch: "main"
 
   depends_on :macos
-  depends_on xcode: :build
+  # Builds with plain `swiftc` from the Xcode Command Line Tools —
+  # a full Xcode.app install is not required. `xcode-select --install`
+  # is enough. Homebrew ensures CLT is present as a base requirement.
 
   def install
     system "make", "build"
