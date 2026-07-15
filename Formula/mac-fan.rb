@@ -1,8 +1,8 @@
 class MacFan < Formula
   desc "CLI fan controller for macOS (talks straight to AppleSMC)"
   homepage "https://github.com/j3tm0t0/mac-fan-cli"
-  url "https://github.com/j3tm0t0/mac-fan-cli/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "1c8ef28b249f03378bed0f0ac95cb92c080f7206295bc03d5e0b12749dc88851"
+  url "https://github.com/j3tm0t0/mac-fan-cli/archive/refs/tags/v0.1.1.tar.gz"
+  sha256 "573c96e196f73f29b22f61d637364cac91935bf288ca5a8fa4de513b324c915e"
   license "MIT"
   head "https://github.com/j3tm0t0/mac-fan-cli.git", branch: "main"
 
