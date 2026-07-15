@@ -5,9 +5,11 @@ Personal Homebrew tap.
 ## Usage
 
 ```sh
-brew tap j3tm0t0/tap
-brew install mac-fan
+brew install j3tm0t0/tap/mac-fan
 ```
+
+(The `user/tap/formula` form auto-taps on first install, so no separate
+`brew tap` is needed.)
 
 ## Formulae
 
