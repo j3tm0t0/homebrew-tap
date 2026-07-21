@@ -14,7 +14,13 @@ brew install j3tm0t0/tap/sesstok
 
 ## Formulae
 
+### My tools
+
 - [`mac-fan`](Formula/mac-fan.rb) — CLI fan controller for macOS
   ([source](https://github.com/j3tm0t0/mac-fan-cli))
-- [`sesstok`](Formula/sesstok.rb) — Get an AWS STS session token with MFA
+
+### Third-party (mirrored here for convenience)
+
+- [`sesstok`](Formula/sesstok.rb) (by [moznion](https://github.com/moznion)) —
+  Get an AWS STS session token with MFA
   ([source](https://github.com/moznion/sesstok))
