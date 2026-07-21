@@ -6,6 +6,7 @@ Personal Homebrew tap.
 
 ```sh
 brew install j3tm0t0/tap/mac-fan
+brew install j3tm0t0/tap/sesstok
 ```
 
 (The `user/tap/formula` form auto-taps on first install, so no separate
@@ -15,3 +16,5 @@ brew install j3tm0t0/tap/mac-fan
 
 - [`mac-fan`](Formula/mac-fan.rb) — CLI fan controller for macOS
   ([source](https://github.com/j3tm0t0/mac-fan-cli))
+- [`sesstok`](Formula/sesstok.rb) — Get an AWS STS session token with MFA
+  ([source](https://github.com/moznion/sesstok))
